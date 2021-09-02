@@ -17,7 +17,7 @@ const book = books => {
     //  show founded result number
     const bookResult = document.getElementById('result-Found')
     if(books.length === 0){
-        bookResult.innerText = `Sorry, result Found`
+        bookResult.innerText = `Sorry, No result found`
     }
     else{
         bookResult.innerText =`Search result: ${books.length}`
